@@ -5,6 +5,7 @@ import { UpdateMenuDto } from './dto/update-menu.dto';
 @Injectable()
 export class MenusService {
   create(createMenuDto: CreateMenuDto) {
+    void createMenuDto;
     return 'This action adds a new menu';
   }
 
@@ -17,6 +18,7 @@ export class MenusService {
   }
 
   update(id: number, updateMenuDto: UpdateMenuDto) {
+    void updateMenuDto;
     return `This action updates a #${id} menu`;
   }
 
